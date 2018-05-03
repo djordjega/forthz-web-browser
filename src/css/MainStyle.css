@@ -1,0 +1,66 @@
+.root {
+    -fx-background-color: #6B7A8F;
+    -fx-overflow-x: hidden;
+    -fx-overflow-y: hidden;    
+}
+.button {
+    -fx-background-color: #6B7A8F;
+    -fx-cursor:hand;
+    -fx-text-fill:#F7C331;
+}
+.scroll-bar:vertical {
+    -fx-background-color: white;
+}
+.dialog-pane {
+    -fx-background-color: #6B7A8F;
+}
+.dialog-pane .label {
+    -fx-text-fill: white;
+}
+.dialog-pane:header .header-panel {
+    -fx-background-color: orange
+}
+.dialog-pane:header .header-panel .label {
+    -fx-font-style: italic;
+    -fx-font-size: 1em;
+}
+#historyBox {
+    -fx-background-color: white;
+    -fx-mark-color: orange; 
+    -fx-max-width: 25px;
+    -fx-cursor:hand;
+}
+#historyBox .context-menu { -fx-background-color: #6B7A8F; }
+#historyBox .menu-item:focused { -fx-background-color: #DCC7AA; }
+#historyBox .menu-item > .label { -fx-text-fill: white; }
+#titId {
+    -fx-text-fill: #DCC7AA;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;    
+}
+#dots {
+    -fx-text-fill:orange;
+    -fx-font-size: 10px;
+    -fx-font-style:italic;
+}
+#siteLId {
+    -fx-text-fill:azure;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+}
+#cre {
+    -fx-text-fill:azure;
+    -fx-font-size: 8px;
+    -fx-font-weight: bold;
+}
+#helloL {
+    -fx-text-fill: azure;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+}
+#userL {
+    -fx-text-fill:#F7C331;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-font-style:italic;
+}
